@@ -17,8 +17,9 @@ String fullName = JOptionPane.showInputDialog(null, "Enter your full name (inclu
 JOptionPane.showMessageDialog(null, "Your full name in all caps: "+fullName.toUpperCase()+"");
 		// 3. Loop through each character of the name (steps 4 - 7).
 int nameLetters = fullName.length();
-for (int i=0; i=nameLetters; i++;) {
-	
+for (int i=0; i<nameLetters; i++) {
+char nameLetter = fullName.charAt(i);
+System.out.println(nameLetter);
 }
 		//    HINT: Use .length() to determine the number of characters in the String.
 
