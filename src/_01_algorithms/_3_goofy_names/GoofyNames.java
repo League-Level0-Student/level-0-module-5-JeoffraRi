@@ -20,6 +20,14 @@ int nameLetters = fullName.length();
 for (int i=0; i<nameLetters; i++) {
 char nameLetter = fullName.charAt(i);
 System.out.println(nameLetter);
+if (i%2==0) {
+	goofyName = goofyName+(Character.toUpperCase(nameLetter));
+}else {
+	goofyName = goofyName+(Character.toLowerCase(nameLetter));
+}
+System.out.println(goofyName);
+}
+
 }
 		//    HINT: Use .length() to determine the number of characters in the String.
 
@@ -40,5 +48,5 @@ System.out.println(nameLetter);
 		// 8. Use pop-up to show user their Goofy name
 
 	}
-}
+
 
