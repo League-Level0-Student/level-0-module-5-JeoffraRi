@@ -66,6 +66,11 @@ public class AmazingRings extends PApplet {
     	}
     	xOne+=xSpeed;
     	xTwo-=xSpeed;
+    	if(xOne==550) {
+    	xSpeed=-xSpeed;	
+    	}else if (xTwo==250) {
+    	xSpeed+=xSpeed;
+    	}
     }
 
     static public void main(String[] args) {
