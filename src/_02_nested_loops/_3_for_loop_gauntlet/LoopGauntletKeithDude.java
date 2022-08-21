@@ -41,11 +41,17 @@ public static void main(String[] args) {
 		System.out.println("In "+g+", I was "+(g-2011)+" years old.");
 	}
 	System.out.println("Challenge 8");
-	for (int hB=0; hB<3; hB++) {
-		for (int hC=0; hC<3; hC++) {	
-				System.out.println(hB+" "+hC);
+	for (int h=0; h<3; h++) {
+		for (int hB=0; hB<3; hB++) {	
+				System.out.println(hB+" "+h);
 		}
 	}
-
+	System.out.println("Challenge 9");
+	for (int i=0; i<6; i++) {
+		for (int iB=0; iB<i; iB++) {	
+				System.out.print("* ");
+				
+		}System.out.println("*");
+	}
 }
 }
