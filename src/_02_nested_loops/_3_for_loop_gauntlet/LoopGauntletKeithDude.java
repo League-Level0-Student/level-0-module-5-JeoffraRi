@@ -40,5 +40,12 @@ public static void main(String[] args) {
 	for (int g=2011; g<2022; g++) {
 		System.out.println("In "+g+", I was "+(g-2011)+" years old.");
 	}
+	System.out.println("Challenge 8");
+	for (int hB=0; hB<3; hB++) {
+		for (int hC=0; hC<3; hC++) {	
+				System.out.println(hB+" "+hC);
+		}
+	}
+
 }
 }
